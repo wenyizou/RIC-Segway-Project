@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+ <response>
+  	gyro_x:~gyro_x~  <br/>
+	gyro_y:~gyro_y~  <br/>
+	gyro_z:~gyro_z~  <br/>
+	accel_x:~accel_x~  <br/>
+	accel_y:~accel_y~  <br/>
+	accel_z:~accel_z~  <br/>
+	anterior:~anterior~  <br/>
+	posterior:~posterior~ <br/>
+	command_response:~command_response~  <!--the response from motor after send command//--> <br/>
+	motor_position:~motor_position~  <br/>
+	query_response:~query_response~  <br/>
+ </response>

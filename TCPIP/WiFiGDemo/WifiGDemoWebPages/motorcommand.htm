@@ -1,0 +1,36 @@
+<html>
+<body>
+
+<head>
+	<title>Motor Command testing</title>
+	<script src="javascript/mchp.js" type="text/javascript"></script>
+</head>
+
+
+<p>
+Input the command string and send to the motor to operate!
+</p>
+
+<form>
+Motor Number: 
+<input id="motornum" type="text"  />
+<br />
+Command Char:
+<input id="motorcmd" type="text"  />
+<br />
+Operand:
+<input id="operand" type="text"  />
+<br />
+Repeat or Not
+<input id="run_repeat" type="text" />
+<br />
+</form>
+
+<input type="button" value="Send command!" onclick="sendmotor()">
+
+<p>Command that you sent is:</p>
+<p id="showcom"></p>
+
+</body>
+
+</html>
